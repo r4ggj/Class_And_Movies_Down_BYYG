@@ -14,9 +14,13 @@
 软件地址：https://www.lanzoux.com/b00z8zafe
 
 # 抓取已购买课程的cookie
+在config.toml 中可修改下载目录等，默认下载目录E:\test
+在软件同级目录新建一个cookie.txt文件
 购买课程后，在浏览器中按F12，在Network标签下F5刷新，然后点击第一个，找到headers标签下的cookie，全部复制粘贴到cookie.txt下，就可以下载付费的课程
 
 ![抓取截图](https://attach.52pojie.cn/forum/202009/19/211335u7f6s7qy1fhuurr4.jpg)  
+
+如果某课程有特殊cookie设置，参考下方修改cookie.json文件配置, 否则cookie.json中修改为空现象 {}
 
 # cookie编辑
 ```
